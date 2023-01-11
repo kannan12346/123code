@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  /* background: linear-gradient(to right, rgb(65, 87, 90), rgb(777, 87, 90, 0)); */
+  background: linear-gradient(50deg, rgb(90, 80, 78), rgb(67, 78, 73, 0));
+  color: black;
+  font-size: 1.15em;
+  font-weight: 400;
+  /* font-style: italic; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+#images {
+  background-image: url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=600");
+  width: 50vw;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(156, 156, 87, 1);
+  border: 5px inset rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 5px 3px 3px grey;
+}
+.images {
+  border: 1px solid grey;
+  opacity: 0.5;
+  padding: 10px 5px;
+  display: inline-block;
+  width: 50vmin;
+  height: 50vh;
+  /* float: left;/6 */
+}
+.images:hover {
+  opacity: 1;
+}
+/* .gradial {
+  width: 50%;
+  height: 500px;
+  background: radial-gradient(circle, red 20%, green 40%);
+  border-radius: 10px;
+
+  box-shadow: 10px 10px 5px grey;
+} */
+.linear {
+  /* background-color: ;
+  background-image: ; */
+  /* background-size: contain, cover;
+  background-repeat: no-repeat; */
+  background: linear-gradient(50deg, rgb(10, 80, 78), rgb(67, 78, 73, 0));
+  width: 50%;
+  height: 500px;
+  border-radius: 100px;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+}
+:nth-child(1) {
+  text-align: center;
+  text-transform: capitalize;
+}
+div table {
+  text-align: center;
+  text-decoration: underline;
+}
+/* .gradial:hover {
+} */
+h1:first-child {
+  color: darkblue;
+}
+.back {
+  width: 100vmin;
+  height: 50vh;
+  background-color: red;
+}
+.imag {
+  width: 100vmin;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linear {
+  background: linear-gradient(to top right, rgb(70, 0, 0), rgb(6, 255, 6, 0.5));
+  width: 100vmin;
+  height: 100vh;
+}
+.text {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
